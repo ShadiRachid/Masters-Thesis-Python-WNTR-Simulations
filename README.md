@@ -10,9 +10,8 @@ The design, simulation, data manipulation and representation is realized with th
 
 ## WNTR Library
 
-In order to conduct water network simulations, the python package entitled WNTR is utilized. **WNTR** is a flexible API that is based upon EPANET, which is a tool that allows creating, simulating and observing different variables in water networks. Through WNTR, existing EPANET water networks (.inp files) are imported to be manipulated and simulated in Python. It is possible to modify the network, alter controls, manage different simulation options, and conduct different simulation types on the network (Klise et al., 2017).
+In order to conduct water network simulations, the python package entitled WNTR is utilized. [**WNTR**](https://wntr.readthedocs.io/en/latest/) is a flexible API that is based upon EPANET, which is a tool that allows creating, simulating and observing different variables in water networks. Through WNTR, existing EPANET water networks (.inp files) are imported to be manipulated and simulated in Python. It is possible to modify the network, alter controls, manage different simulation options, and conduct different simulation types on the network (Klise et al., 2017).
 The coupling of EPANET and Python, allows for the manipulation of input parameters to the water network simulations, and the utilization of results for different purposes. In our case for instance, we are able to alter demands and run the simulations of the water network with different demands in each case, record the resultant relevant variables, and afterwards conduct our calculations and visualizations.
-[WNTR](https://wntr.readthedocs.io/en/latest/)
 
 ## Other Python Libraries
 
